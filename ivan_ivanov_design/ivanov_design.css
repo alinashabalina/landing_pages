@@ -376,3 +376,42 @@
     width: 190px;
     height: 55px;
 }
+
+.footer__container {
+    width: 1200px;
+    height: 150px;
+    background-color: #34547A;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__info {
+    color: white;
+    padding-top: 50px;
+}
+
+.footer__info-header {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer__info-text {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer__icon-container {
+    padding-top: 50px;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
