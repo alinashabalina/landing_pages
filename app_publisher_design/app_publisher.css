@@ -100,6 +100,10 @@
     color: white;
 }
 
+.content__container {
+    overflow:hidden;
+}
+
 .page__wrapper {
     position: relative;
     width: 1400px;
@@ -170,7 +174,7 @@
 
 .page__gamepad {
     position: absolute;
-    left:  100px;
+    left: 100px;
     top: 600px;
     width: 600px;
     height: 400px;
@@ -213,4 +217,175 @@
     width: 50px;
     height: 50px;
     margin-left: -10px;
+}
+
+.games__wrapper {
+    margin-left: 300px;
+    margin-top: 130px;
+    width: 1400px;
+}
+
+.games__header {
+    height: 50px;
+    width: 627px;
+    font-family: Nunito;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.games__subheader {
+    height: 30px;
+    width: 822px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.games__slider {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.games__slider-item {
+    filter: opacity(0.4) grayscale(100%);
+}
+
+.games__slider-item:hover {
+    filter: opacity(1) grayscale(0%);
+}
+
+.games__slide-background {
+    height: 470px;
+    width: 250px;
+    border-radius: 16px;
+    border: 1px solid #E0E0E0;
+    position: relative;
+}
+
+.games__slide-picture {
+    width: 200px;
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    right: 25px;
+}
+
+.games__slide-name {
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    top: 300px;
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    color: #04035F;
+}
+
+.games__slide-info {
+    position: absolute;
+    top: 400px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #A8A8A8;
+}
+
+.games__slide-between {
+    padding-right: 25px;
+    height: 35px;
+}
+
+.work__wrapper {
+    width: 1200px;
+    height: 1000px;
+    margin-top: 180px;
+    margin-left: 300px;
+}
+
+.work__header {
+    height: 50px;
+    width: 627px;
+    font-family: Nunito;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.work__cards-wrapper {
+    width: 850px;
+    display: grid;
+    
+}
+
+.work__card-item {
+    height: 250px;
+    width: 400px;
+    border-radius: 16px;
+    box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E0E0E0;
+    margin-top: 20px;
+    filter: opacity(0.4) grayscale(100%);
+
+}
+
+.work__card-item:hover {
+    filter: opacity(1) grayscale(0%);
+}
+
+.work__card-header {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.work__card-icon {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.four {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.work__card-text {
+    padding-left: 20px;
+    color: #7D8797;
 }
