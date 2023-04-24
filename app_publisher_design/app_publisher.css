@@ -313,16 +313,25 @@
 .work__wrapper {
     width: 1200px;
     height: 1000px;
+    margin-top: 180px;
+    margin-left: 300px;
 }
 
 .work__header {
-
+    height: 50px;
+    width: 627px;
+    font-family: Nunito;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .work__cards-wrapper {
     width: 850px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    
 }
 
 .work__card-item {
@@ -331,4 +340,52 @@
     border-radius: 16px;
     box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.1);
     border: 1px solid #E0E0E0;
+    margin-top: 20px;
+    filter: opacity(0.4) grayscale(100%);
+
+}
+
+.work__card-item:hover {
+    filter: opacity(1) grayscale(0%);
+}
+
+.work__card-header {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.work__card-icon {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.four {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.work__card-text {
+    padding-left: 20px;
+    color: #7D8797;
 }
