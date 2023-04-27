@@ -465,18 +465,18 @@
     position: relative;
     width: 2400px;
     height: 2000px;
-    margin-top: -900px;
+    margin-top: -800px;
     background-image: url(background67.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .contacts__form-container {
-    position: relative;
+    position: absolute;
     width: 750px;
     height: 700px;
-    margin-left: 400px;
-    margin-top: 850px;
+    top: 800px;
+    left: 400px;
     background-image: url(form.png);
     background-size: 100%;
     background-repeat: no-repeat;
