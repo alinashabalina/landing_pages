@@ -1,0 +1,124 @@
+.footer {
+    &__wrapper {
+        width: 1440px;
+        height: 520px;
+    }
+
+    &__links-wrapper {
+        height: 450px;
+        background-color: #1D2530;
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__rights-wrapper {
+        height: 70px;
+        background-color: #141B23;
+    }
+
+    &__logo-container {
+        width: 300px;
+        height: inherit;
+    }
+
+    &__logo {
+        margin-left: 160px;
+        margin-top: 110px;
+    }
+
+    &__links-container {
+        width: 1140px;
+        height: inherit;
+        margin-top: 110px;
+
+    }
+
+    &__links-table {
+        width: 400px;
+        height: 300px;
+        display: grid;
+        grid-column-gap: 130px;
+        grid-template-columns: 150px;
+        margin-left: 390px;
+        font-family: Gilroy;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+    }
+
+    &__link-item {
+        color: #EEEFF4;
+        text-decoration: none;
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    &__links-column1 {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    &__links-column2 {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    &__links-r1c1 {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    
+    &__links-r2c1 {
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    &__links-r3c1 {
+        grid-row: 4;
+        grid-column: 1;
+        margin-top: -15px;
+    }
+
+    &__links-r4c1 {
+        grid-row: 5;
+        grid-column: 1;
+    }
+
+    &__links-r5c1 {
+        grid-row: 6;
+        grid-column: 1;
+    }
+
+    &__links-r1c2 {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    &__links-r2c2 {
+        grid-row: 3;
+        grid-column: 2;
+    }
+
+    &__links-r3c2 {
+        grid-row: 4;
+        grid-column: 2;
+    }
+
+    &__links-r4c2 {
+        grid-row: 5;
+        grid-column: 2;
+    }
+
+    &__links-r5c2 {
+        grid-row: 6;
+        grid-column: 2;
+    }
+}
