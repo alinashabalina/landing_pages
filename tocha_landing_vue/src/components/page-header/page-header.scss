@@ -5,6 +5,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        background-color: #fdfcfe;
     }
 
     &__logo-container {
@@ -18,10 +19,42 @@
 
     &__menu-container_logged {
         width: 540px;
+        display: none;
+        justify-content: space-between;
+        margin-right: 160px;
+    }
+
+    &__menu-container_unlogged {
+        width: 240px;
         display: flex;
         justify-content: space-between;
         margin-right: 160px;
-        visibility: hidden;
+    }
+
+    &__menu-button {
+        border: none;
+        background-color: none;
+        height: 40px;
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        border-radius: 6px;
+
+    }
+
+    &__menu-enter {
+        width: 80px;
+        background-color: #F1E4FF;
+        color: #685ED6;
+    }
+
+    &__menu-register {
+        width: 140px;
+        background-color: #685ED6;
+        color: white;
     }
 
     &__menu-item {
