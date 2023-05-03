@@ -1,0 +1,115 @@
+.index-page {
+    &__wrapper {
+        width: 1440px;
+        height: 1000px;
+    }
+
+    &__page-wrapper {
+        background-image: url('@/assets/background.png');
+        width: 1440px;
+        height: 800px;
+    }
+
+    &__info {
+        width: 1200px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 100px;
+    }
+
+    &__info-container {
+        width: 480px;
+        height: 290px;
+    }
+
+    &__info-purple {
+        color: #685ED6
+    }
+
+    &__info-pic {
+        width: 700px;
+        height: 580px;
+    }
+
+    &__info-header {
+        margin-top: 30px;
+        font-family: Gilroy;
+        font-size: 50px;
+        font-weight: 800;
+        line-height: 60px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    &__info-text {
+        margin-top: 20px;
+        font-family: Gilroy;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    &__footer {
+        position: sticky;
+    }
+
+    &__about-wrapper {
+        width: 1440px;
+        height: 600px;
+        background-color: #F2F7FF80;
+    }
+
+    &__about-container { 
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 200px;
+    }
+
+    &__about-info {
+        background-color: #5ed6a8;
+        width: 400px;
+        height: 500px;
+    }
+
+    &__about-pic {
+        width: 320px;
+        height: 500px;
+    }
+
+    &__tarif-wrapper {
+        width: 1440px;
+        height: 600px;
+    }
+
+    &__tarif-header {
+        font-family: Gilroy;
+        font-size: 46px;
+        font-weight: 800;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    &__tarif-subheader {
+        margin-top: 20px;
+        font-family: Gilroy;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    &__tarif-container {
+        width: 1100px;
+        margin-left: 170px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
