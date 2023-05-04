@@ -112,4 +112,71 @@
         flex-direction: row;
         justify-content: space-between;
     }
+
+    &__steps-wrapper {
+        width: 1440px;
+        height: 900px;
+    }
+
+    &__steps-header {
+        font-family: Gilroy;
+        font-size: 46px;
+        font-weight: 800;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    &__steps-container {
+        width: 1100px;
+        height: 350px;
+        background-image: url('@/assets/lines.png');
+        background-repeat: no-repeat;
+        margin-left: 150px;
+        margin-top: 40px;
+        display: flex;
+    }
+
+    &__step-item1 {
+        margin-top: 10px;
+    }
+
+    &__step-item2 {
+        margin-left: 180px;
+        margin-top: 70px;
+    }
+
+    &__step-item3 {
+        margin-left: 180px;
+        margin-top: 25px;
+    }
+
+    &__phones-container {
+        background-image: url('@/assets/spots.png');
+        width: 1440px;
+        height: 500px;
+        display: flex;
+    }
+
+    &__step-phone {
+        height: 460px;
+        width: 220px;
+    }
+
+    &__step-phone1 {
+        margin-left: 160px;
+        margin-top: -130px;
+    }
+
+    &__step-phone2 {
+        margin-left: 220px;
+        margin-top: -70px;
+    }
+
+    &__step-phone3 {
+        margin-left: 210px;
+        margin-top: -120px;
+    }
+
 }

@@ -1,0 +1,38 @@
+.step-item {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 16px 0px;
+        gap: 16px;
+        width: 250px;
+        height: 250px;
+    }
+
+    &__icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    &__header {
+        width: 250px;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    &__text {
+        width: 250px;
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+}

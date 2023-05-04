@@ -27,7 +27,7 @@
     <div class="index-page__about-wrapper">
       <div class="index-page__about-container">
       <div class="index-page__about-info">
-        <AboutItem header="Ничего лишнего" icon="getImage(‘icon1‘)" />
+        <AboutItem header="Ничего лишнего" :icon="getImage('item1')" />
         <AboutItem header="Простота" icon="item2" />
         <AboutItem header="Несколько ассистентов" icon="item3" />
         <AboutItem header="Кастомизация" icon="item4" />
@@ -43,10 +43,34 @@
         Стоимость зависит от трафика сайта
       </div>
       <div class="index-page__tarif-container">
-      <TarifItem />
-      <TarifItem />
-      <TarifItem />
+      <TariffItem thtext="Бесплатно" price="Пробный период на 1 месяц" 
+      start="0₽/первый месяц" tbtext="Подключить за 0₽"/>
+      <TariffItem thtext="Базовый" price="Менее 1000 посещений в сутки" 
+      start="200₽/месяц" tbtext="Подключить за 200₽"/>
+      <TariffItem thtext="Премиум" price="Более 1000 посещений в сутки" 
+      start="500₽/месяц" tbtext="Подключить за 500₽"/>
     </div>
+    </div>
+    <div class="index-page__steps-wrapper">
+      <div class="index-page__steps-header">
+        Всего 3 шага для подключения Telegram чата
+      </div>
+      <div class="index-page__steps-container">
+        <StepItem class="index-page__step-item1" sheader="Telegram bot" 
+        stext="Вы создаёте Telegram бота для вашего сайта" />
+        <StepItem class="index-page__step-item2" sheader="Подключение Tocha" 
+        stext="Tocha подключает Telegram бота к вашиму сайту" />
+        <StepItem class="index-page__step-item3" sheader="Telegram-чат" 
+        stext="Консультант отвечает на вопросы посетителей сайта" />
+      </div>
+      <div class="index-page__phones-container">
+        <img class="index-page__step-phone1 index-page__step-phone" 
+        src="@/assets/phone1.svg">
+        <img class="index-page__step-phone2 index-page__step-phone" 
+        src="@/assets/phone2.svg">
+        <img class="index-page__step-phone3 index-page__step-phone" 
+        src="@/assets/phone3.svg">
+      </div>
     </div>
     </main>
     <footer class="index-page__footer">

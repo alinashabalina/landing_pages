@@ -1,17 +1,17 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "TarifItem",
+  name: "StepItem",
   props: {
-    price: {
+    step: {
       type: String,
       required: true,
     },
-    header: {
+    sheader: {
       type: String,
       required: true,
     },
-    start: {
+    stext: {
       type: String,
       required: true,
     }

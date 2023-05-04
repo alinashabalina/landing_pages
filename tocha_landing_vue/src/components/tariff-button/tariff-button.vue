@@ -1,5 +1,5 @@
 <template>
-    <button class="tarif-button__wrapper">
+    <button class="tariff-button__wrapper">
         {{ btext }}
     </button>
 </template>
