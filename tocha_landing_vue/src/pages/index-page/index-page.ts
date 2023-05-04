@@ -2,7 +2,9 @@ import { defineComponent } from "vue";
 import PageFooter from "@/components/page-footer/page-footer.vue";
 import PageHeader from "@/components/page-header/page-header.vue";
 import AboutItem from  "@/components/about-item/about-item.vue";
-import TarifItem from "@/components/tarif-item/tarif-item.vue";
+import TariffItem from "@/components/tariff-item/tariff-item.vue";
+import StepItem from "@/components/step-item/step-item.vue";
+import ReviewItem from "@/components/review-item/review-item.vue";
 
 export default defineComponent({
   name: "IndexPage",
@@ -10,17 +12,20 @@ export default defineComponent({
     PageFooter: PageFooter,
     PageHeader: PageHeader,
     AboutItem: AboutItem,
-    TarifItem: TarifItem,
+    TariffItem: TariffItem,
+    StepItem: StepItem,
+    ReviewItem: ReviewItem
   },
   setup() {},
 
   methods: {
-      getImage(name: String) {
-      return new URL(`./assets/${name}.png`, import.meta.url).href
+      getImage(name: String): String {
+        const url = new URL(`./${name}.png`, import.meta.url)
+        console.log(`for name=${name} url=${url}`)
+        return url.href
     }
   },
 
   return: {
-    getImage() {}
   },
 });
