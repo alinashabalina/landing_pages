@@ -4,6 +4,7 @@ import PageHeader from "@/components/page-header/page-header.vue";
 import AboutItem from  "@/components/about-item/about-item.vue";
 import TariffItem from "@/components/tariff-item/tariff-item.vue";
 import StepItem from "@/components/step-item/step-item.vue";
+import ReviewItem from "@/components/review-item/review-item.vue";
 
 export default defineComponent({
   name: "IndexPage",
@@ -13,6 +14,7 @@ export default defineComponent({
     AboutItem: AboutItem,
     TariffItem: TariffItem,
     StepItem: StepItem,
+    ReviewItem: ReviewItem
   },
   setup() {},
 

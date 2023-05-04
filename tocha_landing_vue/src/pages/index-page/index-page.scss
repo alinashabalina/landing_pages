@@ -1,17 +1,19 @@
 .index-page {
     &__wrapper {
-        width: 1440px;
-        height: 1000px;
+        width: 100%;
+        height: 1900px;
+        overflow-x: hidden;
     }
 
     &__page-wrapper {
         background-image: url('@/assets/background.png');
-        width: 1440px;
+        width: 100%;
         height: 800px;
+        flex-grow: 1;
     }
 
     &__info {
-        width: 1200px;
+        width: 95%;
         display: flex;
         justify-content: space-around;
         margin-left: 100px;
@@ -57,16 +59,16 @@
     }
 
     &__about-wrapper {
-        width: 1440px;
+        width: 100%;
         height: 600px;
         background-color: #F2F7FF80;
     }
 
     &__about-container { 
-        width: 1000px;
+        width: 70%;
         display: flex;
         justify-content: space-between;
-        margin-left: 200px;
+        margin-left: 170px;
     }
 
     &__about-info {
@@ -81,7 +83,7 @@
     }
 
     &__tarif-wrapper {
-        width: 1440px;
+        width: 100%;
         height: 600px;
     }
 
@@ -105,8 +107,8 @@
     }
 
     &__tarif-container {
-        width: 1100px;
-        margin-left: 170px;
+        width: 80%;
+        margin-left: 140px;
         margin-top: 40px;
         display: flex;
         flex-direction: row;
@@ -114,8 +116,8 @@
     }
 
     &__steps-wrapper {
-        width: 1440px;
-        height: 900px;
+        width: 100%;
+        height: 1400px;
     }
 
     &__steps-header {
@@ -129,7 +131,7 @@
     }
 
     &__steps-container {
-        width: 1100px;
+        width: 94%;
         height: 350px;
         background-image: url('@/assets/lines.png');
         background-repeat: no-repeat;
@@ -153,10 +155,10 @@
     }
 
     &__phones-container {
-        background-image: url('@/assets/spots.png');
-        width: 1440px;
-        height: 500px;
         display: flex;
+        width: 100%;
+        height: 500px;
+        background-image: url('@/assets/spots.png');
     }
 
     &__step-phone {
@@ -177,6 +179,119 @@
     &__step-phone3 {
         margin-left: 210px;
         margin-top: -120px;
+    }
+
+    &__reviews-wrapper {
+        width: 100%;
+        height: 600px;
+        background-color: #F2F7FF80;
+    }
+
+    &__reviews-container {
+        width: 94%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 170px;
+    }
+
+    &__reviews-top {
+        display: flex;
+        width: 100%;
+        height: 120px;
+    }
+
+    &__reviews-header {
+        font-family: Gilroy;
+        font-size: 46px;
+        font-weight: 800;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 360px;
+    }
+
+    &__reviews-quotes {
+        margin-left: 210px;
+    }
+
+    &__reviews-reviews {
+        display: flex;
+    }
+
+    &__email-wrapper {
+        width: 100%;
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    &__email-container {
+        width: 800px;
+        height: 200px;
+        background-image: url('@/assets/email.png');
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        display: flex;
+    }
+
+    &__email-pic {
+        margin-left: 90px;
+    }
+
+    &__email-info {
+        margin-left: 80px;
+    }
+
+    &__email-header {
+        width: 300px;
+        font-family: Gilroy;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        margin-top: 20px;
+    }
+
+    &__email-form {
+        display: flex;
+        margin-top: 20px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__email-field {
+        width: 200px;
+        height: 40px;
+
+        &::placeholder {
+            padding-left: 20px;
+            font-family: Gilroy;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+    }
+
+    &__email-button {
+        width: 120px;
+        height: 38px;
+        border: none;
+        background-color: #18191F;
+        color: white;
+        font-family: Gilroy;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+
     }
 
 }

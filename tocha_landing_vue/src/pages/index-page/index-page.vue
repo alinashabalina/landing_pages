@@ -71,6 +71,40 @@
         <img class="index-page__step-phone3 index-page__step-phone" 
         src="@/assets/phone3.svg">
       </div>
+      <div class="index-page__reviews-wrapper">
+      <div class="index-page__reviews-container">
+        <div class="index-page__reviews-top">
+          <div class="index-page__reviews-header">Отзывы клиентов</div>
+          <img class="index-page__reviews-quotes" src="@/assets/qmarks.png">
+        </div>
+        <div class="index-page__reviews-reviews">
+        <ReviewItem rheader="Как же удобно!" rtext="В рамках спецификации 
+          современных стандартов, базовые сценарии поведения пользователей, 
+          которые представляют собой яркий пример континентально-европейского 
+          типа политической культуры, будут преданы социально-демократической 
+          анафеме." rname="Анна Купер" rcompany="romashka.ru"/>
+          <ReviewItem rheader="Теперь мы идем в ногу со временем" rtext="А ещё 
+          интерактивные прототипы превращены в посмешище, хотя само их 
+          существование приносит несомненную пользу обществу. Банальные, но 
+          неопровержимые выводы, а также тщательные исследования конкурентов 
+          формируют сеть." rname="Андрей Васильев" rcompany="samogon-ont.ru"/>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="index-page__email-wrapper">
+    <div class="index-page__email-container">
+      <img class="index-page__email-pic" src="@/assets/hands.png">
+      <div class="index-page__email-info">
+        <div class="index-page__email-header">Подключите Telegram чат уже 
+          сегодня </div>
+        <form class="index-page__email-form">
+          <input type="email" class="index-page__email-field" 
+          placeholder="Введите e-mail">
+          <button class="index-page__email-button">Отправить</button>
+        </form>
+      </div>
+    </div>
     </div>
     </main>
     <footer class="index-page__footer">
