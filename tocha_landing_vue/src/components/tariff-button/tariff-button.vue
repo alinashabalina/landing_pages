@@ -4,6 +4,6 @@
     </button>
 </template>
         
-        <script lang="ts" src="./tariff-button.ts"></script>
-        <style lang="scss" src="./tariff-button.scss">
-        </style>
+<script lang="ts" src="./tariff-button.ts"></script>
+<style lang="scss" src="./tariff-button.scss">
+</style>

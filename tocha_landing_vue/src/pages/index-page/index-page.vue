@@ -5,6 +5,8 @@
     </header>
     <main>
       <div class="index-page__page-wrapper">
+        <RegisterPopup class="index-page__register-popup"/>
+        <LoginPopup class="index-page__login-popup"/>
         <div class="index-page__info">
         <div class="index-page__info-container">
           <div class="index-page__info-header">
@@ -27,10 +29,16 @@
     <div class="index-page__about-wrapper">
       <div class="index-page__about-container">
       <div class="index-page__about-info">
-        <AboutItem header="Ничего лишнего" :icon="getImage('item1')" />
-        <AboutItem header="Простота" icon="item2" />
-        <AboutItem header="Несколько ассистентов" icon="item3" />
-        <AboutItem header="Кастомизация" icon="item4" />
+        <div class="index-page__about-header">Tocha Online — это</div>
+        <AboutItem class="index-page__about-item" header="Ничего лишнего" 
+        text="Отсутствие лишних приложений для операторов. Оператору 
+        не нужно учиться работать с чатом"/>
+        <AboutItem class="index-page__about-item" header="Простота"
+        text="Простая установка на сайт"/>
+        <AboutItem class="index-page__about-item" header="Несколько ассистентов"
+        text="Возможность подключения нескольких ассистентов"/>
+        <AboutItem class="index-page__about-item" header="Кастомизация"
+        text="Настройка интерфейса под нужды сайта"/>
       </div>
       <img class="index-page__about-pic" src="@/assets/chat.png">
     </div>

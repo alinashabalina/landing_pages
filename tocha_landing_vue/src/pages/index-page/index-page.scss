@@ -12,6 +12,14 @@
         flex-grow: 1;
     }
 
+    &__register-popup {
+        display: none;
+    }
+
+    &__login-popup {
+        display: none;
+    }
+
     &__info {
         width: 95%;
         display: flex;
@@ -65,16 +73,32 @@
     }
 
     &__about-container { 
-        width: 70%;
+        width: 60%;
         display: flex;
         justify-content: space-between;
-        margin-left: 170px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     &__about-info {
-        background-color: #5ed6a8;
+        background-color: inherit;
         width: 400px;
         height: 500px;
+    }
+
+    &__about-header {
+        margin-top: 20px;
+        font-family: Gilroy;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    &__about-item {
+        margin-top: 40px;
     }
 
     &__about-pic {

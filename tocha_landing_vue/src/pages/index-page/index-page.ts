@@ -5,6 +5,8 @@ import AboutItem from  "@/components/about-item/about-item.vue";
 import TariffItem from "@/components/tariff-item/tariff-item.vue";
 import StepItem from "@/components/step-item/step-item.vue";
 import ReviewItem from "@/components/review-item/review-item.vue";
+import RegisterPopup from "@/components/register-popup/register-popup.vue";
+import LoginPopup from "@/components/login-popup/login-popup.vue";
 
 export default defineComponent({
   name: "IndexPage",
@@ -14,18 +16,12 @@ export default defineComponent({
     AboutItem: AboutItem,
     TariffItem: TariffItem,
     StepItem: StepItem,
-    ReviewItem: ReviewItem
+    ReviewItem: ReviewItem,
+    RegisterPopup: RegisterPopup,
+    LoginPopup: LoginPopup,
   },
   setup() {},
-
-  methods: {
-      getImage(name: String): String {
-        const url = new URL(`./${name}.png`, import.meta.url)
-        console.log(`for name=${name} url=${url}`)
-        return url.href
-    }
-  },
-
+  
   return: {
   },
 });

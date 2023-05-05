@@ -1,0 +1,8 @@
+.close-button {
+    &__wrapper {
+        border: none;
+        background-image: url('@/assets/close.png');
+        background-size: 100%;
+        background-color: white;
+    }
+}
