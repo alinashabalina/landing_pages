@@ -13,6 +13,6 @@
     </div>
 </template>
         
-        <script lang="ts" src="./tariff-item.ts"></script>
-        <style lang="scss" src="./tariff-item.scss">
-        </style>
+<script lang="ts" src="./tariff-item.ts"></script>
+<style lang="scss" src="./tariff-item.scss">
+</style>

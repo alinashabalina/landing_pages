@@ -10,6 +10,6 @@
 </div>
 </template>
         
-        <script lang="ts" src="./step-item.ts"></script>
-        <style lang="scss" src="./step-item.scss">
-        </style>
+<script lang="ts" src="./step-item.ts"></script>
+<style lang="scss" src="./step-item.scss">
+</style>

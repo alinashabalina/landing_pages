@@ -20,6 +20,6 @@
 </div>
 </template>
         
-        <script lang="ts" src="./review-item.ts"></script>
-        <style lang="scss" src="./review-item.scss">
-        </style>
+<script lang="ts" src="./review-item.ts"></script>
+<style lang="scss" src="./review-item.scss">
+</style>
