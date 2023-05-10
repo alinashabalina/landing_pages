@@ -1,0 +1,105 @@
+.footer {
+    &__wrapper {
+        height: 660px;
+    }
+
+    &__upper-container {
+        height: 180px;
+        display: flex;
+        border-bottom: solid 1px #B4AFA8;
+    }
+
+    &__upper-item {
+        height: 104px;
+        width: 630px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    &__upper-columns {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    &__item-subheader {
+        font-family: Gilroy;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #B4AFA8;
+    }
+
+    &__item-column {
+        width: 197px;
+        height: 64px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__item-phone {
+        font-family: Gilroy;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    &__item-email {
+        font-family: Gilroy;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    &__item-time {
+        font-family: Gilroy;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    &__middle-container {
+        width: 1280px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+    &__container-item {
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__container-long {
+        width: 250px;
+    }
+
+    &__item-link {
+        margin-top: 10px;
+        text-decoration: none;
+        color: #403D38;
+        font-family: Gilroy;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+}

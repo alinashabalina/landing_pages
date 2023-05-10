@@ -65,6 +65,6 @@
     </div>
       </template>
       
-      <script lang="ts" src="./page-header.ts"></script>
-      <style lang="scss" src="./page-header.scss">
-      </style>
+<script lang="ts" src="./page-header.ts"></script>
+<style lang="scss" src="./page-header.scss">
+</style>
