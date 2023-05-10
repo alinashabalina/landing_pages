@@ -95,6 +95,14 @@
             <a class="footer__item-link" href="#">Охрана труда</a>
             <a class="footer__item-link" href="#">Контакты</a>
         </div>
+        <div class="footer__social-container">
+        <div class="footer__item-header">Мы в соцсетях</div>
+        <div class="footer__logos-container">
+            <img class="footer__socials-logo" src="@/assets/vk.png">
+            <img class="footer__socials-logo" src="@/assets/ok.png">
+            <img class="footer__socials-logo" src="@/assets/insta.png">
+        </div>
+    </div>
     </div>
     <div class="footer__down-container"></div>
     </div>
