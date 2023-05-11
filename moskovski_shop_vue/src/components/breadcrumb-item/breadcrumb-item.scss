@@ -1,0 +1,19 @@
+.breadcrumb {
+    &__item {
+        font-family: Gilroy;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        list-style: none;
+        width: 40px;
+        height: 26px;
+    }
+
+    &__item-link {
+        color: #B4AFA8;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+}
