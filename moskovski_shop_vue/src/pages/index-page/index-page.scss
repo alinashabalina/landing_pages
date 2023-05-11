@@ -5,7 +5,6 @@
 
     &__breadcrumbs {
         display: flex;
-        width: 200px;
         margin-top: 50px;
     }
 
@@ -25,5 +24,17 @@
     &__bc-what {
         margin-left: 3px;
         display: none;
+    }
+
+    &__clothes-header {
+        width: 1280px;
+        font-family: Kudryashev Headline;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #403D38;
+        padding-left: 25px;
     }
 }

@@ -1,0 +1,30 @@
+.sort {
+    &__wrapper {
+        min-width: 80px;
+        height: 32px;
+        background: #F5F5F5;
+        border-radius: 32px;
+        color: #877F72;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__text {
+        line-height: 32px;
+        font-family: Gilroy;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    &__button {
+        border: none;
+        background-image: url('@/assets/close.png');
+        background-repeat: no-repeat;
+        background-color: #F5F5F5;
+        margin-top: 12px;
+        width: 8px;
+        height: 8px;
+    }
+}

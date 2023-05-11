@@ -16,6 +16,7 @@
         <BreadcrumbItem class="index-page__bc-item" href="#" bctext="Одежда"/>
       </div>
       </ul>
+      <h1 class="index-page__clothes-header">Пальто</h1>
     </main>
     <PageFooter />
     </div>
