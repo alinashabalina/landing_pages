@@ -95,7 +95,8 @@
             <a class="footer__item-link" href="#">Охрана труда</a>
             <a class="footer__item-link" href="#">Контакты</a>
         </div>
-        <div class="footer__social-container">
+    </div>
+    <div class="footer__social-container">
         <div class="footer__item-header">Мы в соцсетях</div>
         <div class="footer__logos-container">
             <img class="footer__socials-logo" src="@/assets/vk.png">
@@ -103,8 +104,16 @@
             <img class="footer__socials-logo" src="@/assets/insta.png">
         </div>
     </div>
+    <div class="footer__down-container">
+        <div class="footer__down-text">© Универмаг Московский, 2020—2021.</div>
+        <div class="footer__down-text">Политика конфиденциальности</div>
+        <div class="footer__down-logos">
+            <img class="footer__pay-logo" src="@/assets/card.png">
+            <img class="footer__pay-logo" src="@/assets/visa.png">
+            <img class="footer__pay-logo" src="@/assets/mir.png">
+            <img class="footer__pay-logo" src="@/assets/pkeeper.png">
+        </div>
     </div>
-    <div class="footer__down-container"></div>
     </div>
 </template>
       

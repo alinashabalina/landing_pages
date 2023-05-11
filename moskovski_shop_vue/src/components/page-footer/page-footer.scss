@@ -74,7 +74,6 @@
         margin-left: auto;
         margin-right: auto;
         display: flex;
-        border-bottom: solid 1px #B4AFA8;
         border-top: solid 1px #B4AFA8;
     }
 
@@ -103,12 +102,44 @@
     }
 
     &__social-container {
-        width: 128px;
+        width: 1280px;
         height: 72px;
+        border-bottom: solid 1px #B4AFA8;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     &__logos-container {
+        width: 128px;
         margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__down-container {
+        width: 1280px;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__down-text {
+        font-family: Gilroy;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #B4AFA8;
+
+    }
+
+    &__down-logos {
+        width: 258px;
+        height: 12px;
         display: flex;
         justify-content: space-between;
     }
