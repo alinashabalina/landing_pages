@@ -1,0 +1,22 @@
+.number {
+    &__wrapper {
+        height: 52px;
+        width: 52px;
+        border-radius: 70px;
+        border: solid 1px #B4AFA8;
+        background-color: white;
+
+        &:active {
+            background-color: #EDE8E1;
+        }
+    }
+
+    &__text {
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0.04em;
+        color: #877F72;
+    }
+}

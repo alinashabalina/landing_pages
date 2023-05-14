@@ -1,0 +1,25 @@
+.size {
+    &__wrapper {
+        height: 15px;
+        width: 15px;
+        border-radius: 4px;
+        padding: 12px;
+        border: solid 1px #877F72;
+
+        &:active {
+            background-color: #DED4C5;
+        }
+    }
+
+    &__number {
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #877F72;
+    }
+}
