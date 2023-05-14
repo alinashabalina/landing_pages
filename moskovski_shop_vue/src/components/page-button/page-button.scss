@@ -1,0 +1,20 @@
+.button {
+    &__wrapper {
+        border: none;
+        background-color: #BC8F8F;
+        border-radius: 42px;
+        width: 158px;
+        height: 48px;
+    }
+
+    &__text {
+        font-family: Gilroy;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+    }
+}

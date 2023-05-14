@@ -1,6 +1,7 @@
 .index-page {
     &__wrapper {
         width: 100%;
+        overflow: hidden;
     }
 
     &__breadcrumbs {
@@ -36,5 +37,64 @@
         text-align: left;
         color: #403D38;
         padding-left: 25px;
+    }
+
+    &__main-container {
+        height: 1464px;
+        width: 1280px;
+        border-radius: 0px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__menu-container {
+        height: 1464px;
+        width: 305px;
+        border-radius: 0px;
+    }
+
+    &__middle-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__cards-container {
+        height: 1464px;
+        width: 955px;
+        border-radius: 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__card-item {
+        margin-left: 12px;
+    }
+
+    &__button-line {
+        height: 48px;
+        width: 955px;
+        margin-top: 30px;
+    }
+
+    &__cards-button {
+        margin-left: 400px;
+    }
+
+    &__numbers-container {
+        height: 45px;
+        width: 380px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    &__cards-number {
+        &-blocked {
+            opacity: 30%;
+        }
     }
 }
