@@ -3,6 +3,53 @@
         height: 660px;
     }
 
+    &__subscribe-container {
+        height: 136px;
+        width: 1440px;
+        background-color: #EDE8E1;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__subscribe-header {
+        height: 48px;
+        width: 197px;
+        color: #877F72;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    &__subscribe-field {
+        height: 48px;
+        width: 600px;
+        border-radius: 45px;
+        border: none;
+        outline: none;
+
+        &::placeholder {
+            color: #B4AFA8;
+            padding-left: 30px;
+        }
+
+        &:focus {
+            padding-left: 50px;
+
+            &::placeholder {
+                color: transparent;
+            }
+        }
+
+        
+    }
+
+    &__subscribe-button {
+        margin-right: 100px;
+    }
+
     &__upper-container {
         height: 180px;
         display: flex;

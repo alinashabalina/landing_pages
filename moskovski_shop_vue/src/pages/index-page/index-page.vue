@@ -18,7 +18,14 @@
       </ul>
       <h1 class="index-page__clothes-header">Пальто</h1>
       <div class="index-page__main-container">
-        <div class="index-page__menu-container"></div>
+        <div class="index-page__menu-container">
+          <MenuItem class="index-page__menu-item" mitext="Бренд" 
+          miid="brand1" milabel="brand1" miltext="Bulmer"
+          miid1="brand2" milabel1="brand2" miltext1="Diego M"
+          miid2="brand3" milabel2="brand3" miltext2="Walder"
+          />
+          <MenuItem class="index-page__menu-item" mitext="Размер"/>
+        </div>
       <div class="index-page__cards-container">
         <CardItem class="index-page__card-item" cheader="Женская куртка Bulmer" 
         cprice="123456 Ru" snumber1="42" snumber2="44" snumber3="46" 
@@ -74,7 +81,9 @@
       </div>
     </div>
     </main>
+    <footer class="index-page__footer">
     <PageFooter />
+  </footer>
     </div>
     </template>
     
