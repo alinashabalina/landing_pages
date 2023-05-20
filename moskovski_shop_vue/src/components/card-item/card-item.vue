@@ -5,15 +5,15 @@
             <div class="card__card-header"> {{ cheader }}</div>
             <div class="card__card-price"> {{ cprice }}</div>
         </div>
-        <div class="card__hover-visible">
-            <div class="card__hover-header">Выберите размер ru</div>
-            <div class="card__hover-sizes">
+        <div class="card__active-visible">
+            <div class="card__active-header">Выберите размер ru</div>
+            <div class="card__active-sizes">
                 <SizeItem :number="snumber1"/>
                 <SizeItem :number="snumber2"/>
                 <SizeItem :number="snumber3"/>
                 <SizeItem :number="snumber4"/>
             </div>
-            <button class="card__hover-button">
+            <button class="card__active-button">
                 <img class="card__card-pic" src="@/assets/basket.png">
                 <div class="card__card-text">добавить в корзину</div>
             </button>

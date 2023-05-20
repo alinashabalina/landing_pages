@@ -1,0 +1,49 @@
+.menu-item {
+    &__wrapper {
+        width: 305px;
+        border-bottom: solid 1px #B4AFA8;
+    }
+
+    &__always-visible {
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__text {
+        font-family: Gilroy;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #403D38;
+        text-transform: uppercase;
+    }
+
+    &__button {
+        background-image: url('@/assets/plus.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 12px;
+        width: 12px;
+        border: none;
+        background-color: white;
+    }
+
+    &__click {
+        width: 48px;
+        height: 150px;
+
+        &_invisible {
+            display: none;
+        }
+        &_visible {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}

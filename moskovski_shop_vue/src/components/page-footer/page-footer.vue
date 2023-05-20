@@ -1,5 +1,13 @@
 <template>
     <div class="footer__wrapper">
+        <form class="footer__subscribe-container">
+        <div class="footer__subscribe-header">Подпишитесь 
+          на нашу рассылку</div>
+          <input type="email" class="footer__subscribe-field"
+          placeholder="E-mail">
+          <PageButton class="footer__subscribe-button" 
+          pbtext="Подписаться"/>
+        </form>
     <div class="footer__upper-container">
         <div class="footer__upper-item">
             <div class="footer__item-header">Нужна помощь с заказом?</div>

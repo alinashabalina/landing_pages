@@ -32,10 +32,11 @@
         </div>
         <div class="header__middle-container">
             <img class="header__main-logo" src="@/assets/main_logo.png">
-            <div class="header__search-field">
-                <div class="header__search-text">Найти товары и бренды...</div>
-                <img class="header__search-pic" src="@/assets/search.png">
-            </div>
+            <form class="header__search-form">
+                <input type="text" class="header__search-field" 
+                placeholder="Найти товары и бренды...">
+                <button class="header__search-pic"></button>
+            </form>
             <div class="header__info-item">
                 <img class="header__info-pic" src="@/assets/personal.png">
                 <div class="header__info-text">Личный кабинет</div>
