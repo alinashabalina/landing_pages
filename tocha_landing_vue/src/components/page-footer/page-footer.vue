@@ -1,3 +1,7 @@
+<script setup lang="ts">
+</script>
+
+
 <template>
   <div class="footer__wrapper">
     <div class="footer__links-wrapper">
@@ -26,6 +30,4 @@
   </div>
     </template>
     
-  <script lang="ts" src="./page-footer.ts"></script>
-  <style lang="scss" src="./page-footer.scss">
-  </style>
+  <style lang="scss" src="./page-footer.scss"></style>

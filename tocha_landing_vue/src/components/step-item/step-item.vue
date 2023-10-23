@@ -1,3 +1,11 @@
+<script setup lang="ts">
+  const props = defineProps<{
+  stext: string
+  sheader: string
+}>()
+</script>
+
+
 <template>
     <div class="step-item__wrapper">
         <img class="step-item__icon" src="@/assets/step1.png">
@@ -10,6 +18,4 @@
 </div>
 </template>
         
-<script lang="ts" src="./step-item.ts"></script>
-<style lang="scss" src="./step-item.scss">
-</style>
+<style lang="scss" src="./step-item.scss"></style>

@@ -1,3 +1,15 @@
+<script setup lang="ts">
+import TariffButton from "../tariff-button/tariff-button.vue";
+import TariffHeader from "../tariff-header/tariff-header.vue";
+  const props = defineProps<{
+  thtext: string
+  tbtext: string
+  price: string
+  start: string
+}>()
+</script>
+
+
 <template>
     <div class="tariff__wrapper">
         <TariffHeader :htext="thtext" />
@@ -13,6 +25,4 @@
     </div>
 </template>
         
-<script lang="ts" src="./tariff-item.ts"></script>
-<style lang="scss" src="./tariff-item.scss">
-</style>
+<style lang="scss" src="./tariff-item.scss"></style>
