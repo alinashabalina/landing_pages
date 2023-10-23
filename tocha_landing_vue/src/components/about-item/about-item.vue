@@ -1,3 +1,11 @@
+<script setup lang="ts">
+  const props = defineProps<{
+  text: string
+  header: string
+  icon: string
+}>()
+</script>
+
 <template>
 <div class="item__wrapper">
     <img class="item__icon" src="@/assets/item1.png">
@@ -8,6 +16,4 @@
 </div>
     </template>
     
-<script lang="ts" src="./about-item.ts"></script>
-<style lang="scss" src="./about-item.scss">
-</style>
+<style lang="scss" src="./about-item.scss"></style>

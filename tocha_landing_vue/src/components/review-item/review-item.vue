@@ -1,3 +1,13 @@
+<script setup lang="ts">
+  const props = defineProps<{
+  rheader: string
+  rtext: string
+  rname: string
+  rcompany: string
+}>()
+</script>
+
+
 <template>
     <div class="review-item__wrapper">
     <div class="review-item__container">
@@ -20,6 +30,4 @@
 </div>
 </template>
         
-<script lang="ts" src="./review-item.ts"></script>
-<style lang="scss" src="./review-item.scss">
-</style>
+<style lang="scss" src="./review-item.scss"></style>

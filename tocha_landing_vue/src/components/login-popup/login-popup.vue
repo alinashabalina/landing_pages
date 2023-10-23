@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import CloseButton from "../close-button/close-button.vue"
+import RegisterButton from "../register-button/register-button.vue"
+</script>
+
+
 <template>
     <div class="login-popup__wrapper">
         <CloseButton class="login-popup__close-pic" />
@@ -13,7 +19,6 @@
         </form>
 </div>
 </template>
-        
-<script lang="ts" src="./login-popup.ts"></script>
+   
 <style lang="scss" src="./login-popup.scss">
 </style>

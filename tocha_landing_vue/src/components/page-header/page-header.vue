@@ -1,3 +1,8 @@
+<script setup lang="ts">
+</script>
+
+
+
 <template>
     <div class="header__wrapper">
         <div class="header__logo-container">
@@ -17,6 +22,4 @@
     </div>
       </template>
       
-      <script lang="ts" src="./page-header.ts"></script>
-      <style lang="scss" src="./page-header.scss">
-      </style>
+    <style lang="scss" src="./page-header.scss"></style>

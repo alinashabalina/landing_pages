@@ -1,9 +1,14 @@
+<script setup lang="ts">
+  const props = defineProps<{
+  htext: string
+}>()
+</script>
+
+
 <template>
     <div class="tariff-header__wrapper">
         {{ htext }}
     </div>
 </template>
         
-<script lang="ts" src="./tariff-header.ts"></script>
-<style lang="scss" src="./tariff-header.scss">
-</style>
+<style lang="scss" src="./tariff-header.scss"></style>
