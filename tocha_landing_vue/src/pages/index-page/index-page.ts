@@ -1,4 +1,4 @@
-import { defineComponent } from "vue";
+import { defineComponent, ref } from "vue";
 import PageFooter from "@/components/page-footer/page-footer.vue";
 import PageHeader from "@/components/page-header/page-header.vue";
 import AboutItem from  "@/components/about-item/about-item.vue";
@@ -20,7 +20,16 @@ export default defineComponent({
     RegisterPopup: RegisterPopup,
     LoginPopup: LoginPopup,
   },
-  setup() {},
+  setup() {
+    const email = ref("")
+    const onSubmit = () => {
+      console.log(email.value);
+      email.value=""
+    };
+
+
+    return {email, onSubmit}
+  },
   
   return: {
   },
