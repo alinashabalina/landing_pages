@@ -1,6 +1,9 @@
 <script setup lang="ts">
-</script>
+import { ref } from 'vue';
+import ModalWindow from "../modal-window/modal-window.vue"
 
+const showModal = ref(false)
+</script>
 
 
 <template>
@@ -10,7 +13,20 @@
             <img class="header__logo-text" src="@/assets/tocha.png">
         </div>
         <div class="header__menu-container_unlogged">
-            <button class="header__menu-button header__menu-enter">Вход</button>
+            <button class="header__menu-button header__menu-enter" id="show-modal" @click="showModal = true">Вход</button>
+            <Teleport to="body">
+        <ModalWindow :isShown="showModal" @close="showModal = false">
+      <template #header>
+        <h3>custom header</h3>
+      </template>
+      <template #body>
+        <h3>custom body</h3>
+      </template>
+      <template #footer>
+        <h3>custom footer</h3>
+      </template>
+    </ModalWindow>
+            </Teleport>
             <button class="header__menu-button header__menu-register">Регистрация</button>
         </div>
         <div class="header__menu-container_logged">
