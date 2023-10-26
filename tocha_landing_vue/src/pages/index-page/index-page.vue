@@ -106,9 +106,9 @@
       <div class="index-page__email-info">
         <div class="index-page__email-header">Подключите Telegram чат уже 
           сегодня </div>
-        <form class="index-page__email-form">
+        <form @submit.prevent="onSubmit" class="index-page__email-form">
           <input type="email" class="index-page__email-field" 
-          placeholder="Введите e-mail">
+          placeholder="Введите e-mail" v-model="email">
           <button class="index-page__email-button">Отправить</button>
         </form>
       </div>
